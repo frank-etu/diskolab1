@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Kumbh Sans', sans-serif;  
+}
+.diskolab_container{
+   
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 20% 20% 20% 20%;
+    display: flex;
+}
+.diskolab_logo{
+    font-size: 1.5em;
+    display:grid;
+    
+    padding: 3%;
+ 
+  
+   
+}
+.diskolab_logo .D1{
+    margin-top: 25%;
+    filter: brightness(200%);
+    color: rgb(15, 226, 226);
+    background-color: rgb(13, 247, 247);
+    width: 180%;
+    border-radius: 0 14px 14px 0;
+    z-index:666;
+    transform: rotate(5deg);
+    mix-blend-mode:screen;
+}
+.diskolab_logo .D2{
+   color: rgb(134, 26, 241);
+   background-color: rgb(117, 7, 228);
+   width: 180%;
+   margin-left: 50%;
+   border-radius: 0 14px 14px 0;
+   transform: rotate(5deg);
+   margin-top: -150%;
+   
+}
+.diskolab_text{
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.2em;
+  
+}
+.diskolab_Tm{
+    font-size: 10px;
+    margin-top: -10px;
+    color: #fff;
+    
+}
+@media screen and (max-width:750px){
+    .diskolab_container{
+        margin: 60% 20% 20% 20%;
+    }
+   .diskolab_logo{
+    padding: 8%;
+   }
+}
